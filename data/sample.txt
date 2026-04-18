@@ -1,0 +1,15 @@
+Python is a high-level programming language created by Guido van Rossum in 1991. It emphasizes code readability with its use of significant indentation.
+
+RAG stands for Retrieval-Augmented Generation. It combines search with Large Language Models. First you retrieve relevant documents from a knowledge base. Then you feed those documents to an LLM to generate accurate answers. This prevents hallucination because the LLM answers based only on the retrieved text.
+
+FastAPI is a modern web framework for building APIs with Python. It's fast, easy to use, and automatically generates interactive API documentation.
+
+Machine learning is a subset of artificial intelligence. It allows computers to learn from data without being explicitly programmed. Deep learning uses neural networks with many layers.
+
+Vector embeddings are numerical representations of text. Similar texts have similar vectors. You can measure similarity using cosine distance.
+
+Cosine similarity measures the angle between two vectors. A cosine of 1 means identical direction. A cosine of 0 means perpendicular. A cosine of -1 means opposite direction.
+
+Retrieval-Augmented Generation (RAG) is a technique that improves LLM accuracy by providing relevant context from a knowledge base before generating an answer. The retrieval step finds documents similar to the user's question.
+
+When you ask "what is RAG", the system converts your question to an embedding, then finds chunks with the most similar embeddings. The chunk containing "RAG stands for Retrieval-Augmented Generation" should have high similarity.
